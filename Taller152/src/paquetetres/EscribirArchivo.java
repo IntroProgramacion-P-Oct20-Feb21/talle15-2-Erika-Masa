@@ -5,10 +5,23 @@
  */
 package paquetetres;
 
+import java.util.Formatter;
+
 /**
  *
  * @author reroes
  */
 public class EscribirArchivo {
-    
+        public static void craerRegistro(String cadena) {
+        try {
+            Formatter salida = new Formatter("data/problema2.txt");
+            salida.format("%s\n", cadena);
+            salida.close();
+        } catch (Exception e) {
+            System.err.println("Error al crear el archivo.");
+            System.exit(1);
+        }
+    }
 }
+
+

@@ -1,0 +1,8 @@
+Libros a prestar:
+
+El camino a un mejor programador opción 0
+Scrum & eXtreme Programming  opción 1
+Lógica de programación opción 2
+Metodología programación orientada a objetos opción 3
+Java Como Programar opción 4 
+Python 3 al descubierto opción 5
